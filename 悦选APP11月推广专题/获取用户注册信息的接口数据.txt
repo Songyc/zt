@@ -1,0 +1,11 @@
+测试环境:http://v85.pclady.com.cn:8001/app/judgeNewAccount.jsp
+需要登录
+
+返回参数:json
+{
+	status : 0 //0成功 -1失败
+	registerTime:"2015-10-10 10:10:10" //注册时间
+	systemTime:"2015-10-10 10:10:10" //系统时间
+}
+
+正式环境 ： http://choice.pclady.com.cn/app/judgeNewAccount.jsp

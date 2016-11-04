@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>移动模板</title>
+<meta name="keywords" content="关键字,关键字,关键字" />
+<meta name="description" content="描述。……" />
+<meta name="Author" content="songyingchun_gz design_gz">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<script type="text/javascript">
+// 设置页面viewport && 基准rem
+(function(f,j){var i=document,d=window;var b=i.documentElement;var c;var h=i.querySelector('meta[name="viewport"]');var e="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no";if(h){h.setAttribute("content",e)}else{h=i.createElement("meta");h.setAttribute("name","viewport");h.setAttribute("content",e);if(b.firstElementChild){b.firstElementChild.appendChild(h)}else{var a=i.createElement("div");a.appendChild(h);i.write(a.innerHTML)}}function g(){var k=b.getBoundingClientRect().width;if(!j){j=640}if(k>j){k=j}var l=k*100/f;b.style.fontSize=l+"px"}g();d.addEventListener("resize",function(){clearTimeout(c);c=setTimeout(g,300)},false);d.addEventListener("pageshow",function(k){if(k.persisted){clearTimeout(c);c=setTimeout(g,300)}},false);if(i.readyState==="complete"){i.body.style.fontSize="16px"}else{i.addEventListener("DOMContentLoaded",function(k){i.body.style.fontSize="16px"},false)}})(640,640);
+</script>
+<link rel="stylesheet" href="css/common.css" type="text/css">
+<link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body class="body">
+<!-- 这一条是广告代码所必须的js，可根据需要来添加 如果页面中没有广告需求 可以连同最底部的submitIvy一起不加，反之则需要 -->
+<script>if(!window._addIvyID) document.write("<scr"+"ipt src='http://www.pconline.com.cn/_hux_/online/default/index.js'><\/scr"+"ipt>");</script>
+
+<!-- 栏目计数器/文章计数器 -->
+<span class="spanclass">
+<script>document.body.insertBefore(document.createElement("script"),document.body.firstChild).src="http://count.pclady.com.cn/count.php?channel=1598&screen="+screen.width+"*"+screen.height+"&refer="+encodeURIComponent(document.referrer)+"&anticache="+new Date().getTime()+"&url="+encodeURIComponent(location.href) + '&from=cms';</script>
+</span>
+
+<!-- 头部 -->
+<div class="g-doc">
+    <!-- 图片预加载页面开始 -->
+    <div id="Jpreload" class="preload pa-img hide">
+        <img src="//img0.pclady.com.cn/pclady/mdxy/1605/640.jpg" alt="" title="" style="opacity:0;">
+        <ul class="board ul-hide interval-animation">
+            <li>
+               <img src="images/loading/c1.png" alt="">
+            </li>
+            <li>
+               <img src="images/loading/c2.png" alt="">
+            </li>
+            <li>
+               <img src="images/loading/c3.png" alt="">
+            </li>
+            <li>
+               <img src="images/loading/c4.png" alt="">
+            </li>
+            <li>
+               <img src="images/loading/c5.png" alt="">
+            </li>
+        </ul>
+        <div class="loading-data tc">
+            <span>0%</span>
+        </div>
+    </div>
+    <!-- 图片预加载页面结束 -->
+
+    <!-- header -->
+    <div class="header">
+        
+    </div>
+    <div class="wraper" id="Jwraper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- 第一屏 -->
+                <div class="swiper-slide m-item m-item1">
+
+                    <!-- 开始 -->
+                    <div class="page page1 start-page" data-page="1">
+                        <div class="title">
+                            <img src="images/p1/title.png" alt="">
+                        </div>
+                        <div class="wenhao">
+                            <img src="images/p1/wenhao.png" alt="">
+                        </div>
+                        <div class="girl">
+                            <img src="images/p1/girl.png" alt="">
+                        </div>
+                        <div class="start-btn" id="startBtn">开始检测</div>
+                        <p class="pTxt">本测试由cihce悦选为您提供</p>
+                    </div>
+                    <!-- /开始 -->
+                    
+                    <form action="http://survey.pclady.com.cn/lady/submit.jsp" method="post" onsubmit="return checkSurvey(this)" target="iframe" accept-charset="gb2312">
+
+                    <!-- 问题1 -->
+                    <div class="page page2" data-page="2">
+                        <div class="title">
+                            <img src="images/p2/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p2/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p2/question.png" alt="">
+                        </div>
+                        <ul class="ul-an clearfix">
+                            <li class="li-a fl">
+                                <div class="answer answer-a">
+                                    <span>是的</span>
+                                    <input type="radio" name="q_10335" value="30597" title="请选择“当你与别人的衣服撞色了，你觉得自己穿得更好看吗？”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b fr">
+                                <div class="answer answer-b">
+                                    <span>不是</span>
+                                    <input type="radio" name="q_10335" value="30598" title="请选择“当你与别人的衣服撞色了，你觉得自己穿得更好看吗？”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题1 -->
+
+                    <!-- 问题2 -->
+                    <div class="page page3" data-page="3">
+                        <div class="title">
+                            <img src="images/p3/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p3/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p3/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span>健身跑步，大汗淋漓</span>
+                                    <input type="radio" name="q_10336" value="30599" title="请选择“以下哪种是你偏爱的解压方式：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>逛街血拼，美食才是关键</span>
+                                    <input type="radio" name="q_10336" value="30600" title="请选择“以下哪种是你偏爱的解压方式：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题2 -->
+
+
+                    <!-- 问题3 -->
+                    <div class="page page4" data-page="4">
+                        <div class="title">
+                            <img src="images/p4/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p4/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p4/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span>朋友圈最热门的泰国 经济休闲之旅</span>
+                                    <input type="radio" name="q_10337" value="30601" title="请选择“终于可以出国休假了。你最渴望去：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>潮流源地美国纽约 都市时尚之旅</span>
+                                    <input type="radio" name="q_10337" value="30602" title="请选择“终于可以出国休假了。你最渴望去：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题3 -->
+                    
+                    <!-- 问题4 -->
+                    <div class="page page5" data-page="5">
+                        <div class="title">
+                            <img src="images/p5/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p5/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p5/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span>查一查这款产品相关的资讯，自媒体评价等</span>
+                                    <input type="radio" name="q_10338" value="30603" title="请选择“朋友圈突然被ysl唇膏刷屏了，这款产品似乎很不错，这时你会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>上各商城看价格，有没有打折优惠</span>
+                                    <input type="radio" name="q_10338" value="30604" title="请选择“朋友圈突然被ysl唇膏刷屏了，这款产品似乎很不错，这时你会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题4 -->
+
+                    <!-- 问题5 -->
+                    <div class="page page6" data-page="6">
+                        <div class="title">
+                            <img src="images/p6/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p6/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p6/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span> 没错，我是这么想的</span>
+                                    <input type="radio" name="q_10339" value="30605" title="请选择“比起普通的潮流资讯，我更喜欢包含有单品和价格的资讯文章:”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>不，我就喜欢普通的潮流资讯</span>
+                                    <input type="radio" name="q_10339" value="30606" title="请选择“比起普通的潮流资讯，我更喜欢包含有单品和价格的资讯文章:”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题5 -->
+
+                    <!-- 问题6 -->
+                    <div class="page page7" data-page="7">
+                        <div class="title">
+                            <img src="images/p7/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p7/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p7/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span> 各大自媒体、达人、明星推荐</span>
+                                    <input type="radio" name="q_10340" value="30607" title="请选择“我总能发现每个季度最新的流行趋势，我的观察来自于：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>朋友圈的种草</span>
+                                    <input type="radio" name="q_10340" value="30608" title="请选择“我总能发现每个季度最新的流行趋势，我的观察来自于：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题6 -->
+
+                    <!-- 问题7 -->
+                    <div class="page page8" data-page="8">
+                        <div class="title">
+                            <img src="images/p8/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p8/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p8/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span>跟闺蜜好友讨论，让好友给你推荐</span>
+                                    <input type="radio" name="q_10341" value="30609" title="请选择“年会公司要求穿得像样点，你会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>网上搜索潮流资讯，各大自媒体、达人、明星推荐的购买</span>
+                                    <input type="radio" name="q_10341" value="30610" title="请选择“年会公司要求穿得像样点，你会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题7 -->
+
+                    <!-- 问题8 -->
+                    <div class="page page9" data-page="9">
+                        <div class="title">
+                            <img src="images/p9/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p9/pic.png" alt="">
+                        </div>
+                        <div class="question">
+                            <img src="images/p9/question.png" alt="">
+                        </div>
+                        <ul class="ul-an">
+                            <li class="li-a">
+                                <div class="answer answer-a">
+                                    <span>根据文章中的购买方式购买，如果文章中没有购买方式，就找熟悉的代购</span>
+                                    <input type="radio" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b">
+                                <div class="answer answer-b">
+                                    <span>网上搜索各种购买渠道对比价格和评价之后再买</span>
+                                    <input type="radio" name="q_10342" value="30612" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题8 -->
+
+                    <!-- 问题9 -->
+                    <div class="page page10" data-page="10">
+                        <div class="title">
+                            <img src="images/p10/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p10/pic.png" alt="">
+                        </div>
+                        <ul class="ul-an clearfix">
+                            <li class="li-a fl">
+                                <div class="answer answer-a">
+                                    <span>男</span>
+                                    <input type="radio" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b fr">
+                                <div class="answer answer-b">
+                                    <span>女</span>
+                                    <input type="radio" name="q_10342" value="30612" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题9 -->
+
+                    <!-- 问题10 -->
+                    <div class="page page10" data-page="10">
+                        <div class="title">
+                            <img src="images/p10/title.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="images/p10/pic.png" alt="">
+                        </div>
+                        <ul class="ul-an clearfix">
+                            <li class="li-a fl">
+                                <div class="answer answer-a">
+                                    <span>男</span>
+                                    <input type="radio" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b fr">
+                                <div class="answer answer-b">
+                                    <span>女</span>
+                                    <input type="radio" name="q_10342" value="30612" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题10 -->
+
+                    <!-- 问题11 -->
+                    <div class="page page11" data-page="11">
+                        <div class="title">
+                            <img src="images/p11/title.png" alt="">
+                        </div>
+                        <div class="how">
+                            <img src="images/p11/how.png" alt="">
+                        </div>
+                        <ul class="ul-an clearfix">
+                            <li class="li-a fl">
+                                <div class="answer answer-a">
+                                    <div class="pic-cur">
+                                        <img src="images/p11/01-cur.jpg" alt="">
+                                    </div>
+                                    <div class="pic">
+                                        <img src="images/p11/01.jpg" alt="">
+                                    </div>
+                                    <input type="radio" class="last" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-b fl">
+                                <div class="answer answer-b">
+                                    <div class="pic-cur">
+                                        <img src="images/p11/02-cur.jpg" alt="">
+                                    </div>
+                                    <div class="pic">
+                                        <img src="images/p11/02.jpg" alt="">
+                                    </div>
+                                    <input type="radio" class="last" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-c fl">
+                                <div class="answer answer-c">
+                                    <div class="pic-cur">
+                                        <img src="images/p11/03-cur.jpg" alt="">
+                                    </div>
+                                    <div class="pic">
+                                        <img src="images/p11/03.jpg" alt="">
+                                    </div>
+                                    <input type="radio" class="last" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                            <li class="li-d fl">
+                                <div class="answer answer-d">
+                                    <div class="pic-cur">
+                                        <img src="images/p11/04-cur.jpg" alt="">
+                                    </div>
+                                    <div class="pic">
+                                        <img src="images/p11/04.jpg" alt="">
+                                    </div>
+                                    <input type="radio" class="last" name="q_10342" value="30611" title="请选择“我每天都会看很多资讯文章，当对文章中的单品产生强烈购买欲望时，我会：”~!" />
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn">
+                            提交
+                            <input value="提交" type="submit" id="Jsubmit"/>
+                        </div>
+                    </div>
+                    <!-- /问题11 -->
+                    </form>
+                    
+                    <!-- 问题10 -->
+                    <div class="page page12" data-page="12">
+                        <ul class="result ul-hide">
+                            <li class="li1">
+                                <div class="title">
+                                    <img src="images/p12/1/title.png" alt="">
+                                </div>
+                                <div class="line">
+                                    <img src="images/p12/1/line.png" alt="">
+                                </div>
+                                <div class="class">
+                                    <img src="images/p12/1/class.png" alt="">
+                                </div>
+                                <div class="bag">
+                                    <img src="images/p12/1/bag.png" alt="">
+                                </div>
+                                <div class="dress">
+                                    <img src="images/p12/1/dress.png" alt="">
+                                </div>
+                                <div class="shoes">
+                                    <img src="images/p12/1/shoes.png" alt="">
+                                </div>
+                                <div class="watch">
+                                    <img src="images/p12/1/watch.png" alt="">
+                                </div>
+                                <div class="tag1">
+                                    <img src="images/p12/1/tag1.png" alt="">
+                                </div>
+                                <div class="tag2">
+                                    <img src="images/p12/1/tag2.png" alt="">
+                                </div>
+                                <div class="tag3">
+                                    <img src="images/p12/1/tag3.png" alt="">
+                                </div>
+                                <div class="tag4">
+                                    <img src="images/p12/1/tag4.png" alt="">
+                                </div>
+                                <div class="tag5">
+                                    <img src="images/p12/1/tag5.png" alt="">
+                                </div>
+                                <div class="btn">
+                                    Chioce悦选有惊喜
+                                </div>
+                            </li>
+                            <li class="li2">
+                                <div class="title">
+                                    <img src="images/p12/2/title.png" alt="">
+                                </div>
+                                <div class="tag1">
+                                    <img src="images/p12/2/tag1.png" alt="">
+                                </div>
+                                <div class="tag2">
+                                    <img src="images/p12/2/tag2.png" alt="">
+                                </div>
+                                <div class="tag3">
+                                    <img src="images/p12/2/tag3.png" alt="">
+                                </div>
+                                <div class="bp">
+                                    <img src="images/p12/2/bp.png" alt="">
+                                </div>
+                                <div class="sp">
+                                    <img src="images/p12/2/sp.png" alt="">
+                                </div>
+                                <div class="shan">
+                                    <img src="images/p12/2/shan.gif" alt="">
+                                </div>
+                                <div class="dress">
+                                    <img src="images/p12/2/dress.png" alt="">
+                                </div>
+                                <div class="bag">
+                                    <img src="images/p12/2/bag.png" alt="">
+                                </div>
+                                <div class="shoes">
+                                    <img src="images/p12/2/shoes.png" alt="">
+                                </div>
+                                <div class="tag4">
+                                    <img src="images/p12/2/tag4.png" alt="">
+                                </div>
+                                <div class="tag5">
+                                    <img src="images/p12/2/tag5.png" alt="">
+                                </div>
+                                <div class="ball">
+                                    <img src="images/p12/2/ball.png" alt="">
+                                </div>
+                                <div class="btn">
+                                    Chioce悦选 品味选择
+                                </div>
+                            </li>
+                            <li class="li3 cur">
+                                <div class="title">
+                                    <img src="images/p12/3/title.png" alt="">
+                                </div>
+                                <div class="line">
+                                    <img src="images/p12/3/line.png" alt="">
+                                </div>
+                                <div class="tag1">
+                                    <img src="images/p12/3/tag1.png" alt="">
+                                </div>
+                                <div class="tag2">
+                                    <img src="images/p12/3/tag2.png" alt="">
+                                </div>
+                                <div class="tag3">
+                                    <img src="images/p12/3/tag3.png" alt="">
+                                </div>
+                                <div class="tag4">
+                                    <img src="images/p12/3/tag4.png" alt="">
+                                </div>
+                                <div class="choice">
+                                    <img src="images/p12/3/choice.png" alt="">
+                                </div>
+                                <div class="p1">
+                                    <img src="images/p12/3/p1.png" alt="">
+                                </div>
+                                <div class="cg">
+                                    <img src="images/p12/3/cg.png" alt="">
+                                </div>
+                                <div class="est">
+                                    <img src="images/p12/3/est.png" alt="">
+                                </div>
+                                <div class="zz">
+                                    <img src="images/p12/3/zz.png" alt="">
+                                </div>
+                                <div class="dai">
+                                    <img src="images/p12/3/dai.png" alt="">
+                                </div>
+                                <div class="cap">
+                                    <img src="images/p12/3/cap.png" alt="">
+                                </div>
+                                <div class="bag">
+                                    <img src="images/p12/3/bag.png" alt="">
+                                </div>
+                                <div class="ren">
+                                    <img src="images/p12/3/ren.png" alt="">
+                                </div>
+                                <div class="btn">CHOICE悦选有惊喜</div>
+                            </li>
+                        </ul>
+                        <ul class="fashion ul-hide cur">
+                            <li class="li1">
+                                <div class="title">
+                                    <img src="images/p12/4/title.png" alt="">
+                                </div>
+                                <div class="fashion">
+                                    <img src="images/p12/4/fashion.png" alt="">
+                                </div>
+                                <div class="btn">告诉小伙伴</div>
+                                <p>
+                                    下载悦选app，在个人中心“兑奖中心处”可参与抽奖（100%有奖）最高可获
+                                    <span>3000元</span>护肤礼包！
+                                </p>
+                            </li>
+                            <li class="li2">
+                                <div class="title">
+                                    <img src="images/p12/5/title.png" alt="">
+                                </div>
+                                <div class="fashion">
+                                    <img src="images/p12/4/fashion.png" alt="">
+                                </div>
+                                <div class="btn">告诉小伙伴</div>
+                                <p>
+                                    下载悦选app，在个人中心“兑奖中心处”可参与抽奖（100%有奖）最高可获
+                                    <span>3000元</span>护肤礼包！
+                                </p>
+                            </li>
+                            <li class="li3">
+                                <div class="title">
+                                    <img src="images/p12/6/title.png" alt="">
+                                </div>
+                                <div class="fashion">
+                                    <img src="images/p12/4/fashion.png" alt="">
+                                </div>
+                                <div class="btn">告诉小伙伴</div>
+                                <p>
+                                    下载悦选app，在个人中心“兑奖中心处”可参与抽奖（100%有奖）最高可获
+                                    <span>3000元</span>护肤礼包！
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /问题10 -->
+
+                    <!-- 弹窗 -->
+                    <div class="masker masker-bg">
+                        <div class="masker-container">
+                            <div class="board">
+                                <div class="pic"></div>
+                                <ul class="ul-ear ul-hide interval-animation">
+                                    <li>
+                                        <img src="images/masker/s1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/masker/s2.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/masker/s3.png" alt="">
+                                    </li>
+                                </ul>
+                                <ul class="ul-necklace ul-hide interval-animation">
+                                    <li>
+                                        <img src="images/masker/c1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/masker/c2.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/masker/c3.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/masker/c4.png" alt="">
+                                    </li>
+                                </ul>
+                                <div class="dTxt">
+                                    <i class="txt"></i>
+                                    <ul class="interval-animation ul-hide">
+                                        <li class="flash"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                    <!-- /弹窗 -->
+                </div>
+                <!-- /第一屏 -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- 右上角音乐开始 -->
+        <div class="play_music">
+            <div class="play_yinfu"></div>
+            <div class="play_audio">
+                <audio loop="true"></audio>
+            </div>
+        </div>
+        <!-- 右上角音乐结束 -->
+    </div>
+</div>
+<iframe frameborder="0" id="iframe" name="iframe" style="position:fixed;top:0;left:0;display:none;"></iframe>
+<!-- http://www.swiper.com.cn/api/callbacks/2014/1217/92.html -->
+<script src="js/zepto.js"></script>
+<script src="js/mobile.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/util.js"></script>
+<script src="http://survey.pclady.com.cn/lady/js/checkSurvey.js" charset="gb2312">;</script>
+<script src="//js.3conline.com/wap/common/wxApi.min.js" charset="utf-8" type="text/javascript" async="async"></script>
+<script>
+(function (window) {
+    var config = {
+        src: "music.mp3",
+        weixin: function () {
+            wxApi.init(function () {
+                var shareData = {
+                    title: '分享标题',
+                    desc:'分享描述',
+                    link: '分享链接',
+                    imgUrl: '分享图标'
+                };
+                wx.onMenuShareAppMessage(shareData);// 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
+                wx.onMenuShareTimeline(shareData);// 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口
+                wx.onMenuShareQQ(shareData);// 监听“分享到QQ”按钮点击、自定义分享内容及分享结果接口
+                wx.onMenuShareWeibo(shareData);// 监听“分享到微博”按钮点击、自定义分享内容及分享结果接口
+            });
+        },
+        process: function (config) {
+            util.intervalAnimation('.preload .interval-animation', 250);
+            var length = config.srcs.length,
+                percent = Math.ceil((config.loadingCount / length) * 100),
+                loadingData = document.querySelector(".loading-data");
+
+            if(loadingData) {
+                loadingData.innerHTML = percent + "%";
+            }
+        },
+        useSwiper: false,
+        useMusic: true,
+        usePreload: true,
+        next: start
+    }
+
+    config.page = {
+        ".m-item1": {
+            init: function () {},
+            reset: function () {}
+        }
+    };
+
+    var wap = new Wap(config);
+})(this);
+
+function start() {
+    document.querySelector(".page1").classList.add('cur');
+    util.cleanIntervalAnimation('.preload .interval-animation');
+
+    var start = document.querySelector("#startBtn");
+    start.onclick = function () {
+        util.nextPage();
+    }
+
+    $("#Jwraper").delegate(".answer", "touchstart", function (e) {
+        $(this).addClass("cur");
+    });
+
+    $("#Jwraper").delegate(".answer", "touchend", function (e) {
+        if($(e.target).hasClass('last') || e.target.querySelector(".last")) {
+            util.age(this);
+            return;
+        }
+
+        setTimeout(function () {
+            util.nextPage();
+        }, 100);
+    });
+
+    $("#Jsubmit").click(function () {
+        util.openMasker();
+    });
+}
+</script>
+<!-- /页面脚本区 -->
+<script>_submitIvyID();</script>
+</body>
+</html>
